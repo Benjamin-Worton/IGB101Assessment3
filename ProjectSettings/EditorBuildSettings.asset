@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Benjamin Worton/Benjamin Worton Scene.unity
+    guid: 97e12bf72da569d4bb8f4a366765300f
+  - enabled: 1
+    path: Assets/Katherine Mellors/Scenes/Katherine Mellors.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Tamika R/Scenes/Tamika R. Dragon's Den.unity
+    guid: be152325c1016414d8b0e9126227ecf7
   m_configObjects: {}

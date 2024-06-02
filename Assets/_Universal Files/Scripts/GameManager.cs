@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.SearchService;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -13,12 +9,6 @@ public class GameManager : MonoBehaviour
     public Text pickupText;
     public Text goalText;
     public ParticleSystem exitPortal;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
 
     // Update is called once per frame
     void Update()
@@ -49,7 +39,7 @@ public class GameManager : MonoBehaviour
     {
         pickupText.text = currentPickups + "/" + maxPickups;
 
-        if (levelComplete && SceneManager.GetActiveScene().name == "Benjamin Worton Scene")
+        if (levelComplete)
         {
             goalText.text = "Enter the Portal";
         }
